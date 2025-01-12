@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Commands Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <img class="logo-image" src="pngegg.png" alt="Linux Logo">  
+            <h1 class="header-title">Linux Commands</h1>
+        </div>
+        <p class="header-subtitle">Essential commands for Linux system navigation</p>
+    </header>
+
+    <main class="main-content">
+        <div class="commands-grid">
+            <div class="card" onclick="location.href='ls.html'">
+                <div class="card-header">
+                    <span class="command-icon">📂</span>
+                    <span class="command-name">ls</span>
+                </div>
+                <p class="command-description">List directory contents. Shows files and folders in the current location.</p>
+                <div class="example-box">ls -l</div>
+                <div class="usage-tips">Use -l for detailed view, -a to show hidden files</div>
+                <a href="ls.html" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='cd.html'">
+                <div class="card-header">
+                    <span class="command-icon">🚶</span>
+                    <span class="command-name">cd</span>
+                </div>
+                <p class="command-description">Change directory. Navigate between folders in the system.</p>
+                <div class="example-box">cd Documents</div>
+                <div class="usage-tips">Use cd .. to go up one level, cd ~ for home directory</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='pwd.html'">
+                <div class="card-header">
+                    <span class="command-icon">📍</span>
+                    <span class="command-name">pwd</span>
+                </div>
+                <p class="command-description">Print working directory. Shows your current location in the system.</p>
+                <div class="example-box">pwd</div>
+                <div class="usage-tips">Useful when you need to know your exact location</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='mkdir.html'">
+                <div class="card-header">
+                    <span class="command-icon">📁</span>
+                    <span class="command-name">mkdir</span>
+                </div>
+                <p class="command-description">Make directory. Creates a new folder in the specified location.</p>
+                <div class="example-box">mkdir new_folder</div>
+                <div class="usage-tips">Use -p to create nested directories</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='rmdir.html'">
+                <div class="card-header">
+                    <span class="command-icon">🗑️</span>
+                    <span class="command-name">rmdir/rm</span>
+                </div>
+                <p class="command-description">Remove files or directories from the system.</p>
+                <div class="example-box">rm -r folder_name</div>
+                <div class="usage-tips">Use -r for directories, -f to force deletion</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='cp.html'">
+                <div class="card-header">
+                    <span class="command-icon">📋</span>
+                    <span class="command-name">cp</span>
+                </div>
+                <p class="command-description">Copy files and directories from one location to another.</p>
+                <div class="example-box">cp file.txt backup/</div>
+                <div class="usage-tips">Use -r to copy directories recursively</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='mv.html'">
+                <div class="card-header">
+                    <span class="command-icon">✂️</span>
+                    <span class="command-name">mv</span>
+                </div>
+                <p class="command-description">Move or rename files and directories.</p>
+                <div class="example-box">mv old.txt new.txt</div>
+                <div class="usage-tips">Can be used for both moving and renaming</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='cat.html'">
+                <div class="card-header">
+                    <span class="command-icon">📑</span>
+                    <span class="command-name">cat</span>
+                </div>
+                <p class="command-description">Display contents of a file in the terminal.</p>
+                <div class="example-box">cat file.txt</div>
+                <div class="usage-tips">Can also combine multiple files</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='touch.html'">
+                <div class="card-header">
+                    <span class="command-icon">✨</span>
+                    <span class="command-name">touch</span>
+                </div>
+                <p class="command-description">Create empty files or update file timestamps.</p>
+                <div class="example-box">touch newfile.txt</div>
+                <div class="usage-tips">Creates new empty file if it doesn't exist</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+
+            <div class="card" onclick="location.href='grep.html'">
+                <div class="card-header">
+                    <span class="command-icon">🔍</span>
+                    <span class="command-name">grep</span>
+                </div>
+                <p class="command-description">Search for patterns in files or command output.</p>
+                <div class="example-box">grep "pattern" file.txt</div>
+                <div class="usage-tips">Use -i for case-insensitive search</div>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>Basic Linux Commands Reference Guide</p>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Albin Jojo INTMCA</p>
+        </div>
+    </footer>
+</body>
+</html>
