@@ -9,9 +9,38 @@
 <body>
     <header class="main-header">
         <div class="logo-container">
-            <h3 class="header-title">🗑️ rmdir/rm Remove directories</h3>
+            <h3 class="header-title">🗑️ rmdir/rm Remove files or directories</h3>
         </div>
     </header>
+    <main class="content">
+        <div class="card-container" style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap;">
+            <div class="card" style="width: 45%; margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+                <h2 style="text-align: center;">rmdir</h2>
+                <p style="text-align: justify;">The rmdir command is used to delete empty directories, while the rm command removes files and directories.
+
+                    <ul>
+                        <br>
+                        <b>Purpose and Functionality</b>
+                        <li>rmdir removes empty directories only</li>
+                        <li>rm deletes files and directories, including non-empty ones with appropriate options.</li>
+                    <br>
+                    <b>Key Features of the Commands</b>
+                    <br>
+                    <ul>
+                        <li><b>rmdir:</b> Safely deletes directories that have no files or subdirectories.</li>
+                        <li><b>rm:</b> Removes files or directories.</li>
+                        <li><b>Use -r</b> for recursive deletion.</li>
+                        <li><b>Use -i</b> for interactive confirmation.</li>
+                    </ul>            
+                </p>
+            </div>
+            <div class="card" style="width: 45%; margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+                <div class="image-container" style="text-align: center;">
+                    <img src="cp command.png" alt="Image Description" style="max-width: 100%; height: auto; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="main-footer">
         <div class="footer-content">
             <p>Basic Linux Commands Reference Guide</p>

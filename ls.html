@@ -9,9 +9,54 @@
 <body>
     <header class="main-header">
         <div class="logo-container">
-            <h3 class="header-title">📂 Ls - List directory contents</h3>
+            <h3 class="header-title">📁 ls - List Directories</h3>
         </div>
     </header>
+    <main class="content">
+        <div class="card-container" style="display: flex; justify-content: space-around; align-items: flex-start; flex-wrap: wrap;">
+            <div class="card" style="width: 45%; margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+                <h2 style="text-align: center;">ls</h2>
+                <p style="text-align: justify;">The ls (list) command displays the contents of directories. 
+                    It is one of the most frequently used commands for exploring files and directories..</p>
+                    <br>
+                    <article><b>Purpose and Functionality</b>
+                        <div></div>
+                    <br>
+                    <ul>
+                        <li>Duplicate files from one location to another.</li>
+                        <li> entire directories, including their contents, recursively.</li>
+                        <li>Preserve file attributes, such as permissions and timestamps, during the copy process.</li>
+                        <li> options for safer and more controlled file copying.</li>
+                    </ul>
+                    </article>
+                    <br>
+                    <article><b>Key Features of the cp Command</b>
+                    <div></div><br>
+                    <ul>
+                        <li><b>File Duplication:</b> Copies individual files from one directory to another.</li>
+                        <li><b>Recursive Directory Copy:</b> Allows entire directories to be copied along with their subdirectories and contents using the -r option.</li>
+                        <li><b>Preservation of Attributes:</b> Retains file metadata (like timestamps, permissions, and ownership) using the -p or -a options.</li>
+                        <li><b>Interactive Copying:</b> Prompts the user before overwriting existing files with the -i option, reducing the risk of accidental data loss.</li>
+                        <li><b>Selective Copying:</b> Copies files only if they are newer or missing in the destination directory with the -u option.</li>
+                    </ul>
+                    </article>
+                <p style="text-align: justify;">The cp command in Linux is used to copy files and directories from one location to another.
+                    It can duplicate a file or entire directory structure, preserving the original data.
+                    For example:
+                    cp file.txt /home/user/ copies file.txt to the /home/user/ directory.
+                    
+                    To copy directories, use cp -r (recursive), like:
+                    cp -r folder /home/user/
+                    
+                    This will copy the entire folder and its contents. </p>
+            </div>
+            <div class="card" style="width: 45%; margin: 20px; padding: 20px; border: 1px solid #ccc; border-radius: 10px;">
+                <div class="image-container" style="text-align: center;">
+                    <img src="cp command.png" alt="Image Description" style="max-width: 100%; height: auto; border-radius: 10px;">
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="main-footer">
         <div class="footer-content">
             <p>Basic Linux Commands Reference Guide</p>
